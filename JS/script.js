@@ -6,10 +6,10 @@ do {
     numero = prompt ("Ingrese un número.");
     }while (isNaN (numero));
 
-// PARSEAMOS EL NUMERO PARA QUE SEA TIPO NUMBER Y ENTERO
+// PARSEAMOS EL NUMERO PARA QUE SEA TIPO NUMBER Y ENTERO.
 numero = parseInt(numero);
 
-// FUNCION PARA SABER SI EL NUMERO INGRESADO ES PRIMO O NO
+// FUNCION PARA SABER SI EL NUMERO INGRESADO ES PRIMO O NO.
 function esPrimo(numero){    
     
 // CONDICIONAL PARA EL 0, EL 1 Y EL 4.    
@@ -24,9 +24,7 @@ function esPrimo(numero){
 
 // CONDICIONAL PARA QUE EL RESULTADO NO SEA BOOLEANO.
 if(esPrimo(numero)){
-        console.log("El número es primo.")
         alert("El número es primo.");
     }else{
-        console.log("El número NO es primo.")
         alert("El número NO es primo.");
     }
