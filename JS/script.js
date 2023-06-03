@@ -3,7 +3,7 @@ let numero;
 
 // PROMPT CON VERIFICACION DE QUE SE INGRESE UN NUMERO.
 do {
-    numero = prompt ("Ingrese un numero.");
+    numero = prompt ("Ingrese un número.");
     }while (isNaN (numero));
 
 // PARSEAMOS EL NUMERO PARA QUE SEA TIPO NUMBER Y ENTERO
@@ -24,9 +24,9 @@ function esPrimo(numero){
 
 // CONDICIONAL PARA QUE EL RESULTADO NO SEA BOOLEANO.
 if(esPrimo(numero)){
-        console.log("El numero es primo.")
-        alert("El numero es primo.");
+        console.log("El número es primo.")
+        alert("El número es primo.");
     }else{
-        console.log("El numero NO es primo.")
-        alert("El numero NO es primo.");
+        console.log("El número NO es primo.")
+        alert("El número NO es primo.");
     }
